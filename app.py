@@ -18,6 +18,6 @@ st.dataframe(df)
 
 # 차트 표시
 # st.subheader("매출 추이")
-st.line_chart(df.set_index("월"))
+# st.line_chart(df.set_index("월"))
 
 # st.success("대시보드 실행 성공 🎉")
