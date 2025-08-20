@@ -3,7 +3,7 @@ import pandas as pd
 
 st.set_page_config(page_title="테스트 대시보드", layout="wide")
 
-st.title("📊 테스트 대시보드")
+# st.title("📊 테스트 대시보드")
 
 # 샘플 데이터
 data = {
@@ -13,11 +13,11 @@ data = {
 df = pd.DataFrame(data)
 
 # 테이블 표시
-st.subheader("매출 데이터")
+# st.subheader("매출 데이터")
 st.dataframe(df)
 
 # 차트 표시
-st.subheader("매출 추이")
+# st.subheader("매출 추이")
 st.line_chart(df.set_index("월"))
 
-st.success("대시보드 실행 성공 🎉")
+# st.success("대시보드 실행 성공 🎉")
