@@ -27,6 +27,6 @@ df['실제매출액'] = df['매출액'] * (1 - df['할인율'])
 st.dataframe(df)
 
 # 추가 정보 표시
-st.write("데이터프레임 크기:", df.shape)
-st.write("데이터프레임 컬럼 정보:")
-st.write(df.info())
+# st.write("데이터프레임 크기:", df.shape)
+# st.write("데이터프레임 컬럼 정보:")
+# st.write(df.info())
